@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.softee</groupId>
+    <groupId>org.javabits.pmbean</groupId>
     <artifactId>pojo-mbean</artifactId>
     <version>1.2-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -27,10 +27,15 @@
     </parent>
 
     <scm>
-        <connection>scm:svn:http://pojo-mbean.googlecode.com/svn/trunk/</connection>
-        <developerConnection>scm:svn:https://pojo-mbean.googlecode.com/svn/trunk/</developerConnection>
-        <url>http://pojo-mbean.googlecode.com/svn/trunk/</url>
+        <connection>scm:git:ssh://github.com:javabits/pojo-mbean.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:javabits/pojo-mbean.git</developerConnection>
+        <url>https://github.com/javabits/pojo-mbean</url>
     </scm>
+
+    <issueManagement>
+        <system>GitHub Issues</system>
+        <url>http://github.com/javabits/yar/issues</url>
+    </issueManagement>
 
     <developers>
         <developer>
