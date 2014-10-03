@@ -9,13 +9,13 @@
     </parent>
 
     <groupId>org.javabits.pmbean</groupId>
-    <artifactId>pojo-mbean-api</artifactId>
+    <artifactId>pojo-mbean-annotation</artifactId>
     
     <packaging>bundle</packaging>
 
     <name>pojo-mbean-api</name>
 
-    <description>API of the framework : it allows user to only take care of using the api by delegating the management of the mbeans to the container.</description>
+    <description>Annotations of the framework : it allows user to only take care of using the annotations by delegating the management of the mbeans to the container.</description>
     <url>http://code.google.com/p/pojo-mbean/</url>
 
     <build>

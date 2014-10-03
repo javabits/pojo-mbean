@@ -21,7 +21,7 @@
     <dependencies>
         <dependency>
             <groupId>org.javabits.pmbean</groupId>
-            <artifactId>pojo-mbean-api</artifactId>
+            <artifactId>pojo-mbean-annotation</artifactId>
         </dependency>
     </dependencies>
 
