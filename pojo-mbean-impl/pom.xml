@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+   <parent>
+        <groupId>org.javabits.pmbean</groupId>
+        <artifactId>pojo-mbean</artifactId>
+        <version>1.2-SNAPSHOT</version>
+    </parent>
+
+    <groupId>org.javabits.pmbean</groupId>
+    <artifactId>pojo-mbean-impl</artifactId>
+
+    <packaging>bundle</packaging>
+
+    <name>pojo-mbean-impl</name>
+
+    <description>Artifact containing the implementation of the pojo-mbean framework.</description>
+    <url>http://code.google.com/p/pojo-mbean/</url>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.javabits.pmbean</groupId>
+            <artifactId>pojo-mbean-annotation</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <extensions>true</extensions>
+                <configuration>
+                    <instructions>
+                        <Export-Package>!org.softee.management.annotation, org.softee.management.*</Export-Package>
+                    </instructions>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
