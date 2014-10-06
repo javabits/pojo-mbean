@@ -10,7 +10,7 @@
 
     <groupId>org.javabits.pmbean</groupId>
     <artifactId>pojo-mbean</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2</version>
     
     <packaging>pom</packaging>
 
@@ -35,7 +35,8 @@
         <connection>scm:git:git@github.com:javabits/pojo-mbean.git</connection>
         <developerConnection>scm:git:git@github.com:javabits/pojo-mbean.git</developerConnection>
         <url>http://github.com/javabits/pojo-mbean</url>
-    </scm>
+      <tag>pojo-mbean-1.2</tag>
+  </scm>
 
     <issueManagement>
         <system>GitHub Issues</system>
